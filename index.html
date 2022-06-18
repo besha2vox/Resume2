@@ -9,19 +9,60 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="stylesheet" href="Styles/media_queries.css">
     <title>Resume</title>
-
 </head>
 
 <body>
     <!--Main-->
     <div class="main">
+        <!--Sidebar-->
+        <div class="sidebar">
+            <img class="photo" width="370" src="img/photo_2018-10-30_17-51-26.jpg" alt="user photo">
+            <h2 class="about_position">Front-End Developer</h2>
+            <h1 class="about_name">Serhii Revva</h1>
+            <!--Contacts-->
+            <div class="side_contacts">
+                <h3 class="sidebar_tittle">Contacts</h3>
+                <div>
+                    <p>
+                        <span class="contact_type">C:</span>
+                        <a class="contact_link" href="tel:+380959438687">+380959438687</a>
+                    </p>
+                    <p>
+                        <span class="contact_type">E:</span>
+                        <a class="contact_link" href="mailto:chornyiav@gmail.com">besha2vox@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+            <!--Tech skills-->
+            <div class="side_techskills">
+                <h3 class="sidebar_tittle">Tech Skills</h3>
+                <ul class="tech_skills_list">
+                    <li class="tech_skills_item"><span class="tech_skills_type">HTML5</span></li>
+                    <li class="tech_skills_item"><span class="tech_skills_type">CSS3</span></li>
+                    <li class="tech_skills_item"><span class="tech_skills_type">GIT</span></li>
+                    <li class="tech_skills_item"><span class="tech_skills_type">WebPack</span></li>
+                    <li class="tech_skills_item"><span class="tech_skills_type">JavaScript</span></li>
+                    <li class="tech_skills_item"><span class="tech_skills_type">React.js</span></li>
+                    <li class="tech_skills_item"><span class="tech_skills_type">Node.js</span></li>
+                </ul>
+                <!-- Soft skills -->
+            </div>
+            <!-- Soft skills  -->
+            <div class="side_softskills">
+                <h3 class="sidebar_tittle">Soft Skills</h3>
+                <ul class="soft_skills_list">
+                    <li class="soft_skills_item"><span class="soft_skills_type">Scrum</span></li>
+                    <li class="soft_skills_item"><span class="soft_skills_type">Agile</span></li>
+                    <li class="soft_skills_item"><span class="soft_skills_type">GTD</span></li>
+                    <li class="soft_skills_item"><span class="soft_skills_type">Teamwork</span></li>
+            </div>
+        </div>
         <!--Content-->
         <div class="content">
             <!--about user-->
             <div class="about">
-                <h2 class="about_position">Front-End Developer</h2>
-                <h1 class="about_name">Serhii Revva</h1>
                 <p class="about_discription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore
                     et dolore magna
@@ -37,8 +78,8 @@
                     <li class="project_tittle_list">
                         <span class="projects">
                             <a class="project_link" href="https://github.com/besha2vox/Resume2" target="_blank"
-                                class="black_link">https://github.com/.../Resume</a>
-                            ..........<span class="project_bracket">
+                                class="black_link">https://github.com/.../Resume</a>..
+                            <span class="project_bracket">
                                 [
                             </span> HTML5, CSS3
                             <span class="project_bracket">
@@ -48,8 +89,7 @@
                     <li class="project_tittle_list">
                         <span class="projects">
                             <a class="project_link" href="https://cryptohub.goit.global/" target="_blank"
-                                class="black_link">https://cryptohub.goit.global/</a> ...........<span
-                                class="project_bracket">
+                                class="black_link">https://cryptohub.goit.global/</a> ..<span class="project_bracket">
                                 [
                             </span>
                             JavaScript <span class="project_bracket">
@@ -61,7 +101,7 @@
                     <li class="project_tittle_list">
                         <span class="projects">
                             <a class="project_link" href="https://kidslike.goit.global/" target="_blank"
-                                class="black_link">https://kidslike.goit.global/</a>....................
+                                class="black_link">https://kidslike.goit.global/</a>..........
                             <span class="project_bracket">
                                 [
                             </span>
@@ -126,48 +166,13 @@
                 </p>
             </div>
         </div>
-        <!--Sidebar-->
-        <aside class="sidebar">
-            <img class="photo" width="370" src="img/image-removebg-preview-removebg-preview.png" alt="user photo">
-            <!--Contacts-->
-            <div class="side_contacts">
-                <h3 class="sidebar_tittle">Contacts</h3>
-                <div>
-                    <p>
-                        <span class="contact_type">C:</span>
-                        <a class="contact_link" href="tel:+380959438687">+380959438687</a>
-                    </p>
-                    <p>
-                        <span class="contact_type">E:</span>
-                        <a class="contact_link" href="mailto:chornyiav@gmail.com">besha2vox@gmail.com</a>
-                    </p>
-                </div>
-            </div>
-            <!--Tech skills-->
-            <div class="side_techskills">
-                <h3 class="sidebar_tittle">Tech Skills</h3>
-                <ul class="tech_skills_list">
-                    <li class="tech_skills_item"><span class="tech_skills_type">HTML5</span></li>
-                    <li class="tech_skills_item"><span class="tech_skills_type">CSS3</span></li>
-                    <li class="tech_skills_item"><span class="tech_skills_type">GIT</span></li>
-                    <li class="tech_skills_item"><span class="tech_skills_type">WebPack</span></li>
-                    <li class="tech_skills_item"><span class="tech_skills_type">JavaScript</span></li>
-                    <li class="tech_skills_item"><span class="tech_skills_type">React.js</span></li>
-                    <li class="tech_skills_item"><span class="tech_skills_type">Node.js</span></li>
-                </ul>
-                <!-- Soft skills -->
-            </div>
-            <!-- Soft skills  -->
-            <div class="side_softskills">
-                <h3 class="sidebar_tittle">Soft Skills</h3>
-                <ul class="soft_skills_list">
-                    <li class="soft_skills_item"><span class="soft_skills_type">Scrum</span></li>
-                    <li class="soft_skills_item"><span class="soft_skills_type">Agile</span></li>
-                    <li class="soft_skills_item"><span class="soft_skills_type">GTD</span></li>
-                    <li class="soft_skills_item"><span class="soft_skills_type">Teamwork</span></li>
-            </div>
-        </aside>
+
     </div>
+    <footer class="footer">
+        <a href="https://t.me/otaku_besh"><img class="icon" src="img/tg.png" alt="telegram"></a>
+        <a href="https://www.facebook.com/donnie.darko.507/"><img class="icon" src="img/fb.png" alt="facebook"></a>
+        <a href="https://www.instagram.com/besha2vox/"><img class="icon" src="img/inst.png" alt="instagram"></a>
+    </footer>
 </body>
 
 </html>
