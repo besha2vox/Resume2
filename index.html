@@ -1,193 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My resume</title>
+        <link rel="stylesheet" href="./Styles/styles.css" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic"
+            rel="stylesheet"
+        />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My resume</title>
-    <link rel="stylesheet" href="./Styles/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic"
-        rel="stylesheet">
-</head>
-
-<body>
-    <!-- main container -->
-    <div class="wrapper">
-        <aside class="sidebar">
-            <img class="my-photo" src="img/photo_2018-10-30_17-51-26.jpg" alt="my photo">
-
-            <div class="sidebar-container">
-                <!-- contacts container -->
-                <div class="contacts-container">
-                    <h3 class="contacts-title">Contacts</h3>
-
-                    <div>
-                        <span class="contacts-link-type">C:</span>
-                        <a class="contacts-link" href="tel:380959438687">+38 095 94 38 687</a>
-                    </div>
-                    <div>
-                        <span class="contacts-link-type">E:</span>
-                        <a class="contacts-link" href="mailto:besha2vox@gmail.com">besha2vox@gmail.com</a>
-                    </div>
+    <body>
+        <!-- main container -->
+        <div class="wrapper">
+            <!-- about me container -->
+            <main class="about-me-container">
+                <!-- about me main info -->
+                <div class="info-container">
+                    <h2 class="profession">JUNIOR FRONTEND DEVELOPER</h2>
+                    <h1 class="name">Serhii Revva</h1>
+                    <p class="description">
+                        I'm an enthusiastic and detail-oriented Frontend
+                        developer seeking an entry-level position with Company
+                        to use my skills in coding, troubleshooting complex
+                        problems, and assisting in the timely completion of
+                        projects. I have good knowledge of HTML, CSS, JavaScript
+                        and React. I also have experience in applying the Agile
+                        / Scrum methodology when working in a team. I love new
+                        challenges that make me want to learn more technology
+                        and improve my skills every day. My goal is to excel in
+                        challenging and innovative work and strive to reach my
+                        full potential. That's why I'm looking for a company
+                        that will give me the opportunity to learn and develop
+                        as a Frontend developer.
+                    </p>
                 </div>
-                <div class="tech-skills-row">
-                    <!-- Tech skills container -->
-                    <div class="tech-skills-container">
-                        <h3 class="tech-skills-title">Tech Skills</h3>
-                        <ul>
-                            <li class="tech-skills-item">
-                                <span class="tech-skills-text">HTML5</span>
+
+                <!-- projects container -->
+                <section class="projest-container">
+                    <h3 class="about-me-title">Projects</h3>
+                    <ol class="projects">
+                        <li class="projects-item">
+                            <a
+                                class="projects-link"
+                                href="https://besha2vox.github.io/team-project-3DFreedom/"
+                            >
+                                3D Freedom</a
+                            >
+                            <a
+                                class="projects-link"
+                                href="https://github.com/besha2vox/team-project-3DFreedom"
+                                >link</a
+                            >
+                            <span class="tech-name"
+                                >[HTML, SASS, JS, Parcel]</span
+                            >
+                            <p>
+                                A website with a responsive layout. Role: Team
+                                Lead. Build project on github. Implementation of
+                                forms and contact page, check for build errors
+                                and live page performance.
+                            </p>
+                        </li>
+                        <li class="projects-item">
+                            <a
+                                class="projects-link"
+                                href="https://besha2vox.github.io/goit-js-teamproject-filmoteka/"
+                                >Filmoteka</a
+                            >
+                            <a
+                                class="projects-link"
+                                href="https://github.com/besha2vox/goit-js-teamproject-filmoteka"
+                                >link</a
+                            >
+                            <span class="tech-name"
+                                >[HTML, SASS, JS, AJAX, Firebase, Parcel]</span
+                            >
+                            <p>
+                                A website with a responsive layout. Role: Team
+                                Lead. Build project on github. App component
+                                with Public and Private routes, AuthPage page
+                                logic. Writing interface code to work with
+                                themoviedb.api and open modal windows, check for
+                                build errors and live page performance.
+                            </p>
+                        </li>
+                    </ol>
+                </section>
+
+                <!-- work experience -->
+                <section>
+                    <h3 class="about-me-title">Work Experience</h3>
+
+                    <ol class="profession-list">
+                        <!-- company 1 -->
+                        <li>
+                            <h4 class="profession-title">
+                                Spone miner
+                                <span class="profession-company"
+                                    >Kapitalna Mine</span
+                                >
+                            </h4>
+                            <span class="profession-time">
+                                Desember 2020 - up to now
+                                <span class="profession-divider">|</span>
+                                Ukraine
+                            </span>
+
+                            <ul class="profession-duties">
+                                <li class="profession-duties-item">
+                                    Maintenance and repair of mechanized
+                                    fastening sections and fastening of
+                                    connection.
+                                </li>
+                                <li class="profession-duties-item">
+                                    Bringing the stope to a safe state and
+                                    preparing the stope line for the extraction
+                                    cycle..
+                                </li>
+                                <li class="profession-duties-item">
+                                    Сontrol of the composition of the mining
+                                    atmosphere.
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- company 2 -->
+                        <li>
+                            <h4 class="profession-title">
+                                Operator
+                                <span class="profession-company"
+                                    >DENSO Manufacturing Czech s.r.o</span
+                                >
+                            </h4>
+                            <span class="profession-time">
+                                November 2019 - June 2020
+                                <span class="profession-divider">|</span> Czech
+                                Republic
+                            </span>
+
+                            <ul class="profession-duties">
+                                <li class="profession-duties-item">
+                                    Collection of car air conditioners.
+                                </li>
+                                <li class="profession-duties-item">
+                                    Product quality control..
+                                </li>
+                                <li class="profession-duties-item">
+                                    Work on kanban methodology.
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- company 3 -->
+                        <li>
+                            <h4 class="profession-title">
+                                Client manager
+                                <span class="profession-company"
+                                    >JSC CB PRIVATBANK</span
+                                >
+                            </h4>
+                            <span class="profession-time">
+                                June 2014 - February 2015
+                                <span class="profession-divider">|</span>
+                                Ukraine
+                            </span>
+
+                            <ul class="profession-duties">
+                                <li class="profession-duties-item">
+                                    Resolution of the application at the time of
+                                    the client's request, based on the
+                                    classification.
+                                </li>
+                                <li class="profession-duties-item">
+                                    Cause analysis and identification of
+                                    incidents with a common cause.
+                                </li>
+                                <li class="profession-duties-item">
+                                    Monitoring the correct passage of the
+                                    business process of providing customers with
+                                    the proper level of service.
+                                </li>
+                            </ul>
+                        </li>
+                    </ol>
+
+                    <!-- Education -->
+                    <section class="education-container">
+                        <h3 class="about-me-title education-title">
+                            Education
+                        </h3>
+
+                        <ul class="education-list">
+                            <li class="education-item">
+                                <p class="univ-name">IT School GoIT</p>
+                                <p class="univ-speciality">
+                                    Fullstack Developer
+                                </p>
+                                <span class="profession-time">
+                                    July 2022 - - up to now
+                                    <span class="profession-divider">|</span>
+                                    Ukraine
+                                </span>
                             </li>
-                            <li class="tech-skills-item">
-                                <span class="tech-skills-text">CSS3</span>
+                            <li class="education-item">
+                                <p class="univ-name">
+                                    Donetsk National Technical University
+                                </p>
+                                <p class="univ-speciality">Mining engineer</p>
+                                <span class="profession-time">
+                                    September 2008 - June 2013
+                                    <span class="profession-divider">|</span>
+                                    Ukraine
+                                </span>
                             </li>
-                            <li class="tech-skills-item">
-                                <span class="tech-skills-text">GIT</span>
+                        </ul>
+                    </section>
+                </section>
+            </main>
+
+            <aside class="sidebar">
+                <div class="img-wrapper">
+                    <img
+                        class="my-photo"
+                        src="img/photo_2018-10-30_17-51-26.jpg"
+                        alt="my photo"
+                    />
+                </div>
+
+                <div class="sidebar-container">
+                    <!-- contacts container -->
+                    <div class="contacts-container">
+                        <h3 class="contacts-title">Contacts</h3>
+
+                        <ul class="contacts-list">
+                            <li class="contacts-item">
+                                <a class="contacts-link" href="tel:380959438687"
+                                    >+38 095 94 38 687</a
+                                >
                             </li>
-                            <li class="tech-skills-item">
-                                <span class="tech-skills-text">WebPack</span>
+                            <li class="contacts-item">
+                                <a
+                                    class="contacts-link"
+                                    href="mailto:besha2vox@gmail.com"
+                                    >besha2vox@gmail.com</a
+                                >
                             </li>
-                            <li class="tech-skills-item">
-                                <span class="tech-skills-text">JavaScript</span>
+                            <li class="contacts-item">
+                                <a
+                                    class="contacts-link"
+                                    href="https://github.com/besha2vox"
+                                    >GitHub</a
+                                >
                             </li>
-                            <li class="tech-skills-item">
-                                <span class="tech-skills-text">React.js</span>
+                            <li class="contacts-item">
+                                <a
+                                    class="contacts-link"
+                                    href="https://www.linkedin.com/in/serhii-revva/"
+                                    >Linkedin</a
+                                >
                             </li>
-                            <li class="tech-skills-item">
-                                <span class="tech-skills-text">Node.js</span>
+                            <li class="contacts-item">
+                                <a
+                                    class="contacts-link"
+                                    href="https://t.me/besha2vox"
+                                    >Telegram</a
+                                >
                             </li>
                         </ul>
                     </div>
+                    <div class="tech-skills-row">
+                        <!-- Tech skills container -->
+                        <div class="tech-skills-container">
+                            <h3 class="tech-skills-title">Tech Skills</h3>
+                            <ul>
+                                <li class="tech-skills-item">
+                                    <p class="tech-skills-text">HTML5</p>
+                                </li>
+                                <li class="tech-skills-item">
+                                    <p class="tech-skills-text">CSS3</p>
+                                </li>
+                                <li class="tech-skills-item">
+                                    <p class="tech-skills-text">SASS</p>
+                                </li>
+                                <li class="tech-skills-item">
+                                    <p class="tech-skills-text">GIT</p>
+                                </li>
+                                <li class="tech-skills-item">
+                                    <p class="tech-skills-text">Parcel</p>
+                                </li>
+                                <li class="tech-skills-item">
+                                    <p class="tech-skills-text">WebPack</p>
+                                </li>
+                                <li class="tech-skills-item">
+                                    <p class="tech-skills-text">JavaScript</p>
+                                </li>
+                                <li class="tech-skills-item">
+                                    <p class="tech-skills-text">React.js</p>
+                                </li>
+                            </ul>
+                        </div>
 
-                    <!-- Soft skills container -->
-                    <div class="tech-skills-container">
-                        <h3 class="tech-skills-title">Soft Skills</h3>
-                        <ul>
-                            <li class="tech-skills-item">
-                                <span class="tech-skills-text">Scrum</span>
-                            </li>
-                            <li class="tech-skills-item">
-                                <span class="tech-skills-text">Agile</span>
-                            </li>
-                            <li class="tech-skills-item">
-                                <span class="tech-skills-text">GTD</span>
-                            </li>
-                            <li class="tech-skills-item">
-                                <span class="tech-skills-text">Teamwork</span>
-                            </li>
-                        </ul>
+                        <!-- Soft skills container -->
+                        <div class="tech-skills-container">
+                            <h3 class="tech-skills-title">Soft Skills</h3>
+                            <ul>
+                                <li class="tech-skills-item">
+                                    <p class="tech-skills-text">Scrum</p>
+                                </li>
+                                <li class="tech-skills-item">
+                                    <p class="tech-skills-text">Agile</p>
+                                </li>
+                                <li class="tech-skills-item">
+                                    <p class="tech-skills-text">GTD</p>
+                                </li>
+                                <li class="tech-skills-item">
+                                    <p class="tech-skills-text">Teamwork</p>
+                                </li>
+                                <li class="tech-skills-item">
+                                    <p class="tech-skills-text">
+                                        Stress resistance
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </aside>
-
-        <!-- about me container -->
-        <div class="about-me-container">
-            <!-- about me main info -->
-            <div class="info-container">
-                <h2 class="profession">FullStacl Developer</h2>
-                <h1 class="name">Serhii Revva</h1>
-                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                    viverra maecenas accumsan lacus vel facilisis. </p>
-            </div>
-
-            <!-- projects container -->
-            <div class="projest-container">
-                <h3 class="about-me-title">Projects</h3>
-                <ol>
-                    <li class="projects-item">
-                        <a class="projects-link" href="https://github.com/besha2vox/resume">
-                            https://github.com/.../resume
-                        </a>
-                        <span class="dots">.........................</span>
-                        <span><b>[</b> <span class="tech-name">HTML5, CSS3</span> <b>]</b></span>
-                    </li>
-                    <li class="projects-item">
-                        <a class="projects-link" href="https://cryptohub.goit.ua/">https://cryptohub.goit.ua/</a>
-                        <span class="dots">..................................</span>
-                        <span><b>[</b> <span class="tech-name">JavaScript</span> <b>]</b></span>
-                    </li>
-                    <li class="projects-item">
-                        <a class="projects-link" href="https://kidslike.goit.co.ua/">https://kidslike.goit.co.ua/</a>
-                        <span class="dots">..................................</span>
-                        <span><b>[</b> <span class="tech-name">React.js, Node.js</span> <b>]</b></span>
-                    </li>
-                </ol>
-            </div>
-
-            <!-- work experience -->
-            <div>
-                <h3 class="about-me-title">Work Experience</h3>
-
-                <!-- company 1 -->
-                <div>
-                    <h4 class="profession-title">Spone miner <span class="profession-company">Kapitalna Mine</span>
-                    </h4>
-                    <span class="profession-time">
-                        Desember 2020 - up to now <span class="profession-divider">|</span> Ukraine
-                    </span>
-
-                    <ul class="profession-duties">
-                        <li class="profession-duties-item">
-                            Maintenance and repair of mechanized fastening sections and fastening of connection.
-                        </li>
-                        <li class="profession-duties-item">Bringing the stope to a safe state and preparing the stope
-                            line for the extraction cycle..</li>
-                        <li class="profession-duties-item">Сontrol of the composition of the mining atmosphere.</li>
-                    </ul>
-                </div>
-
-                <!-- company 2 -->
-                <div>
-                    <h4 class="profession-title">Operator <span class="profession-company">DENSO Manufacturing Czech
-                            s.r.o</span></h4>
-                    <span class="profession-time">
-                        November 2019 - June 2020 <span class="profession-divider">|</span> Czech Republic
-                    </span>
-
-                    <ul class="profession-duties">
-                        <li class="profession-duties-item">Collection of car air conditioners.</li>
-                        <li class="profession-duties-item">Product quality control..</li>
-                        <li class="profession-duties-item">Work on kanban methodology.</li>
-                    </ul>
-                </div>
-
-                <!-- company 3 -->
-                <div>
-                    <h4 class="profession-title">Client manager <span class="profession-company">JSC CB
-                            PRIVATBANK</span></h4>
-                    <span class="profession-time">
-                        June 2014 - February 2015 <span class="profession-divider">|</span> Ukraine
-                    </span>
-
-                    <ul class="profession-duties">
-                        <li class="profession-duties-item">Resolution of the application at the time of the client's
-                            request, based on the classification.
-                        </li>
-                        <li class="profession-duties-item">Cause analysis and identification of incidents with a common
-                            cause.</li>
-                        <li class="profession-duties-item">Monitoring the correct passage of the business process of
-                            providing customers with the proper level of service.</li>
-                    </ul>
-                </div>
-
-                <!-- Education -->
-                <div class="education-container">
-                    <h3 class="about-me-title education-title">Education</h3>
-                    <p class="univ-name">Donetsk National Technical University</p>
-                    <p class="univ-speciality">Mining engineer</p>
-                    <span class="profession-time">
-                        September 2008 - June 2013 <span class="profession-divider">|</span> Ukraine
-                    </span>
-                </div>
-            </div>
+            </aside>
         </div>
-    </div>
-    <footer class="footer">
-        <a href="https://t.me/otaku_besh"><img class="icon" src="img/tg.png" alt="telegram"></a>
-        <a href="https://www.facebook.com/donnie.darko.507/"><img class="icon" src="img/fb.png" alt="facebook"></a>
-        <a href="https://www.instagram.com/besha2vox/"><img class="icon" src="img/inst.png" alt="instagram"></a>
-    </footer>
-</body>
+    </body>
 </html>
